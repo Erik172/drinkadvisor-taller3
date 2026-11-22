@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: drinkadvisor-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: MONGO_DB
+        sync: false
+      - key: APEX_ORIGINS
+        sync: false

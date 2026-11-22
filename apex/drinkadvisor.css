@@ -1,0 +1,8 @@
+.cal-bar, #promedio-bar { font-weight: 700; }
+.da-entry { border: 1px solid #d4dae0; border-radius: .5rem; padding: 1rem; margin-block: .75rem; }
+.da-entry header { display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem 1rem; }
+.da-entry p, .da-entry h3, .da-entry dl { margin: .45rem 0 0; overflow-wrap: anywhere; }
+.da-entry p { white-space: pre-wrap; }
+.da-entry dl { display: grid; grid-template-columns: minmax(6rem, 12rem) minmax(0, 1fr); gap: .25rem .75rem; }
+.da-entry dt { font-weight: 600; }
+.da-entry dd { margin: 0; }

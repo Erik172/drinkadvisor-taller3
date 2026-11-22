@@ -1,0 +1,9 @@
+.env
+.env.*
+.venv/
+__pycache__/
+.codegraph/
+.pytest_cache/
+tmp/
+output/
+Taller3NoSQL_APEX.pdf
